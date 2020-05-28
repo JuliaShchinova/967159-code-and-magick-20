@@ -1,13 +1,6 @@
 'use strict';
 
 var fireballSize = 22;
-// function getFireballSpeed (isWindFromLeft) {
-//   if (isWindFromLeft) {
-//     return 5;
-//   }
-//   return 2;
-// };
-
 function getFireballSpeed (isWindFromLeft) {
   return (isWindFromLeft) ? 5 : 2;
 };
